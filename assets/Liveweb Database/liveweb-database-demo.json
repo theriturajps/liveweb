@@ -1,0 +1,200 @@
+{
+  "MAIN_ACTIVITY" : {
+    "AppSettings" : {
+      "AppThemes" : {
+        "AppThemeState" : {
+          "themeint" : "1"
+        }
+      },
+      "RTL" : {
+        "state" : "off"
+      },
+      "SwipeRefresh" : {
+        "state" : "on"
+      }
+    },
+    "LoadBGImage" : {
+      "LoadImage" : {
+        "image" : "https://files.123freevectors.com/wp-content/original/130994-blue-and-white-low-poly-background.jpg"
+      }
+    },
+    "LoadFacebookAd" : {
+      "FacebookAdsState" : {
+        "AllAdState" : {
+          "state" : "on"
+        },
+        "BannerAdState" : {
+          "state" : "on"
+        },
+        "IntersAdState" : {
+          "state" : "on"
+        }
+      },
+      "FacebookBannerId" : {
+        "id" : "YOUR_PLACEMENT_ID"
+      },
+      "FacebookIntersId" : {
+        "id" : "YOUR_PLACEMENT_ID"
+      }
+    },
+    "LoadGoogleAdmob" : {
+      "AdmobAdsState" : {
+        "AllAdState" : {
+          "state" : "off"
+        },
+        "BannerAdState" : {
+          "state" : "off"
+        },
+        "IntersAdState" : {
+          "state" : "off"
+        },
+        "IntersCounter" : {
+          "count" : "10"
+        }
+      },
+      "AdmobAppId" : {
+        "id" : "ca-app-pub-3940256099942544/6300978111"
+      },
+      "AdmobBannerId" : {
+        "id" : "ca-app-pub-3940256099942544/6300978111"
+      },
+      "AdmobIntersId" : {
+        "id" : "ca-app-pub-3940256099942544/1033173712"
+      }
+    },
+    "LoadPageIcons" : {
+      "LoadPageIcon01" : {
+        "icon" : "https://image.flaticon.com/icons/png/512/69/69524.png"
+      },
+      "LoadPageIcon02" : {
+        "icon" : "http://simpleicon.com/wp-content/uploads/star.png"
+      },
+      "LoadPageIcon03" : {
+        "icon" : "https://cdn0.iconfinder.com/data/icons/cosmo-layout/40/box-512.png"
+      },
+      "LoadPageIcon04" : {
+        "icon" : "http://cdn.onlinewebfonts.com/svg/img_357393.png"
+      },
+      "LoadPageIcon05" : {
+        "icon" : "https://image.flaticon.com/icons/png/512/34/34067.png"
+      },
+      "LoadPageIcon06" : {
+        "icon" : "https://image.flaticon.com/icons/png/512/34/34400.png"
+      },
+      "LoadPageIcon07" : {
+        "icon" : "https://image.flaticon.com/icons/png/512/1629/1629128.png"
+      }
+    },
+    "LoadPageTitles" : {
+      "LoadPageTitle01" : {
+        "title" : "Home"
+      },
+      "LoadPageTitle02" : {
+        "title" : "Menu 2"
+      },
+      "LoadPageTitle03" : {
+        "title" : "Menu 3"
+      },
+      "LoadPageTitle04" : {
+        "title" : "Menu 4"
+      },
+      "LoadPageTitle05" : {
+        "title" : "Menu 5"
+      },
+      "LoadPageTitle06" : {
+        "title" : "Menu 6"
+      },
+      "LoadPageTitle07" : {
+        "title" : "Privacy Policy"
+      },
+      "LoadPageTitle08" : {
+        "title" : "ShareApp"
+      },
+      "LoadPageTitle09" : {
+        "title" : "Group Of Menu 01"
+      },
+      "LoadPageTitle10" : {
+        "title" : "Group Of Menu 02"
+      }
+    },
+    "LoadPages" : {
+      "LoadPageUrl01" : {
+        "url" : "https://ixastudio.com/files/LiveWeb/index.html"
+      },
+      "LoadPageUrl02" : {
+        "url" : "https://ixastudio.com/files/LiveWeb/menu-2.html"
+      },
+      "LoadPageUrl03" : {
+        "url" : "https://ixastudio.com/files/LiveWeb/menu-3.html"
+      },
+      "LoadPageUrl04" : {
+        "url" : "https://ixastudio.com/files/LiveWeb/menu-4.html"
+      },
+      "LoadPageUrl05" : {
+        "url" : "https://ixastudio.com/files/LiveWeb/menu-5.html"
+      },
+      "LoadPageUrl06" : {
+        "url" : "https://ixastudio.com/files/LiveWeb/menu-6.html"
+      },
+      "LoadPageUrl07" : {
+        "url" : "https://www.privacypolicygenerator.info/live.php?token=YWY1B5UDGOEDpHmIGS3QkjYrtSLsSpeX"
+      }
+    },
+    "NavigationMenuState" : {
+      "Menu02" : {
+        "state" : "on"
+      },
+      "Menu03" : {
+        "state" : "on"
+      },
+      "Menu04" : {
+        "state" : "on"
+      },
+      "Menu05" : {
+        "state" : "on"
+      },
+      "Menu06" : {
+        "state" : "on"
+      },
+      "Menu07" : {
+        "state" : "on"
+      },
+      "Menu08" : {
+        "state" : "on"
+      },
+      "NavMenu" : {
+        "state" : "on"
+      },
+      "SharePageMenu" : {
+        "state" : "on"
+      }
+    },
+    "ShareAppText" : {
+      "text" : "You can download the Liveweb app here."
+    },
+    "TopMenuState" : {
+      "TopMenu" : {
+        "state" : "on"
+      }
+    }
+  },
+  "SPLASH_SCREEN" : {
+    "SplashScreenAnim" : {
+      "AnimState" : {
+        "NoAnim" : "off"
+      },
+      "AnimType01" : {
+        "BounceAnim" : "on"
+      },
+      "AnimType02" : {
+        "FadeAnim" : "off"
+      },
+      "SplashLogo" : {
+        "SplashScreenLogo" : "https://firebasestorage.googleapis.com/v0/b/liveweb-da81c.appspot.com/o/liveweblogo.png?alt=media&token=52ad43d3-c301-4444-9115-62f7665aa352"
+      }
+    },
+    "SplashScreenState" : {
+      "SplashScreen" : "on"
+    }
+  }
+}

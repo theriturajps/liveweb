@@ -1,0 +1,573 @@
+<html lang="en"><!--<![endif]--><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="iXa Studio - Isa COSKUN">
+    <meta name="keywords" content="">
+
+    <title>LiveWeb - Android Webview App With Admin Panel | Documentation by Isa COSKUN</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="container">
+
+            <section id="top" class="section docs-heading">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center">
+                            <h1>Liveweb Android Mobile App With Admin Panel</h1>
+                            <p class="lead">Technical Documentation For Liveweb - Android Webview App With Admin Panel - Prepared By IXA Studio</p>
+
+                                           
+
+            
+            <a href="https://play.google.com/store/apps/details?id=ixa.liveweb"><img alt="LiveWeb - Android Webview App With Admin Panel" border="0" src="https://ixastudio.com/android-projects/liveweb-android-webview-app-with-admin-panel/images/google-play.png" width="20%" height="10%"></a>
+                        
+                            </div>
+                        <!-- end title -->
+                    </div>
+                    <!-- end 12 -->
+                </div>
+                <!-- end row -->
+
+                <hr>
+
+            </section>
+            <!-- end section -->
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <nav class="docs-sidebar affix" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
+                        <ul class="nav">
+                            <li class=""><a href="#line0">Introduction</a></li>
+                            <li class="active"><a href="#line1">Getting Started - Purchase Project</a></li>
+                            <li class=""><a href="#line2">How To Compile And Run The Project?</a></li>
+                            <li class=""><a href="#line3">How To Customize The App?</a></li>
+                            <li><a href="#line4">How To Add Google Admob Ads?</a></li>
+                            <li class=""><a href="#line5">How To Add Website And Application Settings?</a></li>
+                            <li class=""><a href="#line6">How To Test The Application?</a></li>
+                            <li><a href="#line8">How To Create Signed APK?</a></li>
+                            <li class=""><a href="#line9">Finish</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-9">
+                    <section id="line0" class="welcome">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Introduction<hr></h2>
+                                <div class="row">
+
+                                    <div class="col-md-12 full">
+                                        <div class="intro1">
+                                            <ul>
+                                                <li><strong>Item Name : </strong>Liveweb Android Webview App With Admin Panel</li>
+                                                <li><strong>Item Version : </strong> v 1.2</li>
+                                                <li><strong>Author  : </strong> <a href="https://codecanyon.net/user/ixastudio/" target="_blank">Isa COSKUN</a></li>
+                                                <li><strong>Support : </strong> <a href="mailto:contact@ixastudio.com" target="_blank">contact@ixastudio.com</a></li>
+                                                <li><strong>Created : </strong> 20 July 2019</li>
+                                                <li><strong>Last Modified : </strong> 20 April 2020</li>
+
+                                            </ul>
+                                        </div>
+
+                                        <hr>
+                                        <div>
+                                            <p>First of all, Thank you so much for purchasing this template and for being my loyal customer.
+                                                <strong>You are awesome!</strong>
+                                                <br> You are entitled to get free lifetime updates to this product.
+                                            </p>
+
+                                            <p>This documentation is to help you regarding each step of customization. Software knowledge is not required to customize this app.</p>
+
+                                            <h4>Requirements</h4>
+                                            <p>You will need the following sofwares to customize this template.</p>
+                                            <ol>
+                                                <li>Android Studio (eg: <a href="https://developer.android.com/studio" target="_blank">Download Android Studio</a>)</li>
+                                                <li>Android Emulator or a physical android device for testing (eg: Nox Player or Samsung Galaxy Note 5)</li>
+                                                
+                                                <li>Firebase Console account to store data (eg: <a href="https://firebase.google.com/" target="_blank">Create an account</a>) </li>
+                                                <li>Google Admob Ad account for ads (eg: <a href="#" target="_blank">Create an account</a>) </li>
+                                                <li>One Signal account for push notification (eg: <a href="https://onesignal.com" target="_blank">Create an account</a>) </li>
+
+                                            </ol>
+                                            <div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i>  Be careful when editing the app. If not properly regulated, the application may be don't work. 
+                                                    
+                                                    <br> Free support is not provided for incorrect personalization.
+
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end row -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="line1" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Getting Started - Purchase Project<a href="file:///C:/Users/PC/Desktop/documentation-html-template-master/index.html#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+          
+								<p>After getting the above mentioned programs or required accounts, we can now begin to personalize your project.</p>
+								
+								<strong>If you have not yet purchased the project, you can purchase it using the buy button. You can get the files of the project by sending an e-mail after paying with debit card.</strong>
+								<hr>
+								<p style="text-align: center; font-size: 20px;"><a href="mailto:contact@ixastudio.com">contact@ixastudio.com</a></p>
+								<hr>
+								
+								<div class="intro2 clearfix">
+									<p style="text-align: center;"><i class="fa fa-dollar"></i>Pay and send mail. That is all. The project is yours now.<br> </p>
+									<div style="width:100%; text-align:center; "><img style="width:50%;" src="https://camo.envatousercontent.com/05728d8a00445e3b0326d9724e38f783c8df3d5d/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d2d4c6830452d6e626e4a452f58707978794a4346446c492f41414141414141414251302f6e7344794d6b6d437a6238644e786647676f763372496944305f7573776a554967434c63424741735948512f733634302f6f666665722e676966">
+</div>
+                                    <p></p>
+								</div>
+                            </div>
+							
+							
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line2" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">How To Compile And Run The Project <a href="file:///C:/Users/PC/Desktop/documentation-html-template-master/index.html#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="intro2 clearfix">
+                            <p><i class="fa fa-android"></i>If you have installed the Android Studio program smoothly and it is running, please start it and open the project.<br> </p>
+                        </div>
+
+                        <hr>
+
+                        <h4>Start Android Studio and Open The Project</h4>
+
+                        <p>Start Android Studio and select the "LiveWeb" folder included in the project you purchased with Android Studio. You can follow the video steps below.</p>
+
+                         
+                        <hr>
+						
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Fr9fa31IuxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line3" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">How To Customize The App <a href="file:///C:/Users/PC/Desktop/documentation-html-template-master/index.html#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <h4>Create Your App Name And Package Name</h4>
+
+                        <p>Find the package name and name of the application. The package name must be unique. This will appear in the Play Store with the name of the package. It is not possible to use the package name of someone else. (eg: https://play.google.com/store/apps/details?id=ixa.liveweb)</p>
+
+                        <hr>
+						
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/fSvalawoebE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                        <hr>
+
+                        <h4>Set The App's Main Logo</h4>
+
+                        <p>In this step we will set the app's logo. Once you have acquired or designed your own logo, you can proceed to the step on the video.</p>
+                        <div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i>  Caution: This logo must be in 1024x1024 size and PNG format.
+
+                                                    <br> Otherwise, it may cause some problems and bad views in the application !!!
+                                                </p>
+                                            </div> 
+                        <hr>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RjEcj4KTvac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<hr>
+
+<h4>Edit App Main Color And Theme</h4>
+<p>In this step, I'll show you how to edit the main colors that the app uses as a theme. It is a fairly simple step. Replace the colors you want with the color values you see in the video. That is all.</p>
+<br>
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/w-6Cu8pXRIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+											<hr>
+
+<h4>Project Creation And Database Settings With Firebase Console</h4>
+<p>This step is very important. Follow carefully. First of all, we need to log in with our own Google account via Firebase Console.</p>
+
+    
+<p>We will then create a new project. We will add an android and web app to this project. Then we'll create a database and make the settings.</p>
+
+<div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i> Caution: Do not share the project file you created with anyone. Firebase Console is free up to a certain limit. This limit is quite high for this application. If you still need it, you may need to purchase a package that will meet your needs via the Firebase Console.
+
+                                                    </p>
+                                            </div><br>
+<p>After creating an active Google account and registering with the Firebase Console, you can follow the steps in the video below. Go <a href="https://firebase.google.com/" target="_blank">Firebase Console</a></p>
+
+<div class="introcode clearfix">
+                                                <p><i class="fa fa-code"></i>
+    </p><p>
+When you follow the steps in the video, the code you see in the video is what you need. Copy and add this code to the appropriate location by following the steps in the video.</p>
+<p></p><pre>   <code>
+   
+   
+    {
+        "rules": {
+          ".read": true,
+          ".write": "auth != null"
+        }
+      }
+   
+   
+   </code></pre><p></p>
+                                            </div>
+
+<hr>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXck9DH0dus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    
+                    <br>
+                    <hr>
+                    
+                    <h4>Adding Web Application To Project For Admin Panel</h4>
+                    <p>This step is very important. Follow carefully. First of all, we need to log in again with our own Google account via Firebase Console.</p>
+
+                        
+                    <p>Now we will add a web application to the project we created before. After creating a web application, we will add the necessary information to the config file of the Admin Panel.</p>
+
+                    <div class="intro2 clearfix">
+                                                                    <p><i class="fa fa-exclamation-triangle"></i> Caution: Do not share the project file you created with anyone.
+
+                                                                        </p>
+                                                                </div><br>
+                    <p>After login your Firebase account, you can follow the steps in the video below. Go <a href="https://firebase.google.com/" target="_blank">Firebase Console</a></p>
+
+                    <hr>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vGBkanZcAro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                    <br>
+                    <hr>
+                    
+                    <h4>Adding An Email To The Project For The Admin Panel</h4>
+                    <p>This step is very important. Follow carefully. First of all, we need to log in again with our own Google account via Firebase Console.</p>
+
+                        
+                    <p>Now we'll add an email account to log in to the admin panel and have real-time control of the data in the android app online.</p>
+
+                    <p>This will be our admin email. With this e-mail, you can login to the admin panel and only we can control the application we have created.</p>
+
+                    <div class="intro2 clearfix">
+                                                                    <p><i class="fa fa-exclamation-triangle"></i> Caution: Do not share your admin email and password with anyone.
+
+                                                                        </p>
+                                                                </div><br>
+                    <p>After login your Firebase account, you can follow the steps in the video below. Go <a href="https://firebase.google.com/" target="_blank">Firebase Console</a></p>
+
+                    <hr>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DNjdUE0BO4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                    <br>
+                    <hr>
+
+                    
+                    <h4>One Signal Sign Up And Add To App</h4>
+                    <p>This step is very important. Follow carefully. First of all, we need to log in again with our own Google account via Firebase Console.</p>
+
+                        
+                    <p>We will now go to the Onesignal web page and register. We will then create an android application on One Signal and connect it with Firebase Console. We will integrate the application ID given to us to our project in android studio. That is all.</p>
+
+                    <p>We can now send real-time notifications to our application via the One Signal web page in real time.</p>
+
+                    <div class="intro2 clearfix">
+                                                                    <p><i class="fa fa-exclamation-triangle"></i> Caution: Do not share your app id with anyone.
+
+                                                                        </p>
+                                                                </div><br>
+                    <p>After login your Firebase account and sign up to One Signal, you can follow the steps in the video below.</p>
+                    <p>Go <a href="https://firebase.google.com/" target="_blank">Firebase Console</a></p>
+                    <p>Go <a href="https://onesignal.com" target="_blank">One Signal</a></p>
+
+                    <hr>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z2OpgGQC4RY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                        
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line4" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">How To Add Google Admob Ads<a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <h4>Google Admob Register, Create Ad ID And Add To App</h4>
+
+<p>
+
+First, we'll create a Google Admob account, then create 2 ad IDs and add them to our project. It's a pretty simple step. Watch the video below carefully.
+</p><p>Go <a href="x" target="_blank">Google Admob</a> and sign up !</p>
+
+<div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i> Caution:  You need a Google account to create an Admob account.
+
+
+                                                    </p>
+    </div>
+
+<br>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/1TNmHhokFi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line5" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Add Website And Application Settings<a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+               
+								<h4>Adding Menus, Menu Titles, Icons, and Websites</h4><h4>
+                                
+                                <p>In this step we will make the web sites, menus, headers, icons, and other settings that will appear in our application. In our application, we will be able to change this data very easily with the admin panel.</p>
+                                <p>You don't have to send updates to your app because data changes online and in real time.</p>
+								<p>This step is quite simple. You can control your own application very easily and quite quickly with admin panel.</p>
+                                <p>First of all, let's login to the admin panel with the email address we created earlier via firebase console.</p>
+                                <p>You can then change the data in your application by following the steps in the video.</p>
+								
+								<div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i> Caution:  When you change the data in the admin panel, the current data must change in the preview boxes. If not, you may not have added the settings of the web application you created with firebase console to your admin panel. Go back to the previous steps and watch videos carefully.</p>
+								</div>
+								<hr>							
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9_4gj90r_o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                            <br>
+
+                        </h4></div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line6" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">How To Test The Application <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+
+                                <p>Once you have completed all the steps above correctly, your app should be ready. Now test the app and make sure that your changes appear correctly in the app.</p>
+                                <p>We should see our changes in app. If this happens successfully, you can create a signed APK file of the app and publish it on the Play Store or other platforms.</p>
+								<p>I am testing the app using emulator. You can test with emulator installed on your computer or with a real android device.</p>
+                                <p>First let's login to admin panel. Then let's run our project which is open in android studio with an emulator or a physical device.</p>
+                                <p>If the application opens successfully, it is possible that you have made no mistakes.</p>
+                                <p>If the changes we made on the admin panel appear in the application, you are only a few steps away from sharing your amazing application with the whole world.</p>
+                                <p>Go to <a href="https://onesignal.com">One Signal</a> and test the notification.</p>
+							<hr>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ffIvgC-PUMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+							<br>
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+                   
+                    <section id="line8" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">How to create signed APK<a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                                <p>This is the last step. I will show you how to create a signed APK file for our finished project. You will then be able to share your app with the world.</p>
+
+								<div class="intro2 clearfix">
+                                    <p><i class="fa fa-exclamation-triangle"></i> Caution:  Never forget the "keystore.jks" file, "keystore password" and "alias password" that you create in this step. If you lose access to them, you will not be able to send any updates to your app through the Play Store. Keep them in a private storage area and keep them in backup. Do not share them with anyone !!!</p>	
+								</div>
+								
+								<hr>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/bMDxlyq0vKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+								<br>
+                        </div>
+						
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line9" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Finish <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+    
+								<div class="intro2 clearfix">
+                                    <p><i class="fa fa-android"></i>That is all. You are now ready to present your app to users.</p>	
+								</div>
+								
+								<hr>
+								
+								<div class="intro2 clearfix">
+                                    <p><i class="fa fa-exclamation-triangle"></i>This document is explained in a simple and detailed way so that even people without programming knowledge can create their own applications. You can edit this project and create your own application even if you do not have programming knowledge by following the steps completely and carefully.</p>	
+								</div>
+								
+								<hr>
+								
+                                <strong>This project was developed entirely by IXA Studio. It is a completely native application. The database can be controlled with Admin Panel.</strong>	
+                                <p>Please do not forget to leave feedback, vote and comment.</p>
+								<hr>
+	
+								<div class="intro2 clearfix">
+                                    <p><i class="fa fa-exclamation-triangle"></i> Caution: If you purchase this project with PayPal, you will receive free software support.</p>
+									<p>Only those who purchase the project from the Envato market can receive free technical and update support.</p>
+									<p>If you purchase by contacting us with PayPal, you will receive free technical support + free personalization + software support and updates.</p>
+									<p>Caution: Only valid for customers who purchase with PayPal.</p>
+									<p>To purchase the project with PayPal, please send us an e-mail after you have paid. If you have a question, you can send us an email with PayPal about the purchase.</p>
+								</div>
+								
+								
+								
+								
+								
+								<hr>
+								
+								<div class="intro2 clearfix">
+                                    <p><i class="fa fa-android"></i>Thank you for your purchase.</p>	
+								</div>
+	
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                        <div class="col-md-12">
+						
+							<div class="big-title text-center" <p="">This documentation was prepared by Isa Coskun
+                    <strong><p></p><li>If you have any questions that are beyond the scope of this help file, please feel free to <a href="mailto:contact@ixastudio.com" target="_blank">Email US.</a></li><p></p></strong>
+
+                        
+
+                        
+					        <a href="https://play.google.com/store/apps/details?id=ixa.liveweb"><img alt="Google Play Button" src="images/google-play.png" width="20%" height="10%"></a>
+						</div>
+						
+						<br>
+												<p></p>
+						<br>
+						
+						</div>
+						
+
+						</div>
+						
+                </div>
+                <!-- // end .col -->
+
+            </div>
+            <!-- // end .row -->
+
+        </div>
+        <!-- // end container -->
+
+    
+    <!-- end wrapper -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+
+    <!-- CUSTOM PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/syntax-highlighter/scripts/shCore.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+
+
+
+</body></html>
